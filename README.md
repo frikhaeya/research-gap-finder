@@ -28,31 +28,27 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 You’ll need Python 3.8+ and a Unix-like environment (Linux/macOS/WSL).
+```
 
-🚀 Usage
-bash
-Copy
-Edit
+## 🚀 Usage
+```bash
 python3 main.py
-The output will be saved in:
+```
 
-Copy
-Edit
+The output will be saved in:
 research_gaps.csv
 You can open it with Excel, Notion, VS Code, or any data tool.
 
-⚙️ Customizing the Search
+## ⚙️ Customizing the Search
 To look up your own research areas, go to:
 
-bash
-Copy
-Edit
+```bash
 utils/keywords.py
+```
+
 And modify the following lists:
 
-python
-Copy
-Edit
+```python
 YOUR_TOPIC_KEYWORDS = [
   "robotics security",
   "blockchain forensics",
@@ -62,29 +58,30 @@ YOUR_TOPIC_KEYWORDS = [
 
 ALL_TOPICS = YOUR_TOPIC_KEYWORDS
 Then run the tool again — it will scan those new topics for 2025 publications and GitHub trends.
+```
 
-📁 Project Structure
+## 📁 Project Structure
 File	Purpose
 main.py	Orchestrates the scan for all sources
 modules/	Each data source has a module here
 utils/keywords.py	Keyword config: edit this to change the focus
 research_gaps.csv	Final output file
 
-📌 Notes
+## 📌 Notes
 Google Scholar scraping was removed due to rate limits. Use arXiv, Semantic Scholar, or official APIs instead.
 
 The academic scrapers fetch and parse search result pages (not full paper PDFs).
 
-📈 TODO / Ideas
- Add Semantic Scholar API support
+## 📈 TODO / Ideas
+ - Add Semantic Scholar API support
 
- Filter papers by citation count or author h-index
+ - Filter papers by citation count or author h-index
 
- Web UI for keyword control
+ - Web UI for keyword control
 
- Notion or Airtable export integration
+ = Notion or Airtable export integration
 
-🙋‍♀️ Contributing
+## 🙋‍♀️ Contributing
 Feel free to fork, adapt, or submit PRs if you want to:
 
 Add more scrapers
