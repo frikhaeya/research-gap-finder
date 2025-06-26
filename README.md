@@ -79,7 +79,7 @@ The academic scrapers fetch and parse search result pages (not full paper PDFs).
 
  - Web UI for keyword control
 
- = Notion or Airtable export integration
+ - Notion or Airtable export integration
 
 ## 🙋‍♀️ Contributing
 Feel free to fork, adapt, or submit PRs if you want to:
