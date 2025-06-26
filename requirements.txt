@@ -1,0 +1,23 @@
+# Core Libraries
+requests
+beautifulsoup4
+pandas
+
+# Academic APIs
+arxiv
+scholarly
+
+# GitHub & Time Parsing
+python-dateutil
+
+# Optional: Semantic Scholar (planned)
+# Add below once semantic_scholar_scraper.py is used
+# aiohttp
+
+# If using SerpAPI (optional alternative)
+# google-search-results
+
+# Optional: Proxy/Retry Support (if you need more robust scraping)
+# fake-useragent
+# tenacity
+

@@ -1,0 +1,8 @@
+# .gitignore
+.venv/
+__pycache__/
+*.pyc
+research_gaps.csv
+.env
+
+.venv/
